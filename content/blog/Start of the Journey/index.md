@@ -1,7 +1,7 @@
 ---
-title: Start of the journey
-date: "14 July 2023"
-description: "The beginning..."
+title: Start of the Journey
+date: "2023-07-14T22:47:32.169Z"
+description: "It all started while learning Azure Fundamental AZ-900..."
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -44,15 +44,17 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Posts by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          Visit his site here -{` `}
+          <a href={`https://iam.vcknows.com`}> iam.vcknows.com</a>
         </p>
       )}
     </div>
   )
 }
+// <a href={`https://twitter.com/${social?.twitter || ``}`}>
+// iam.vcknows.com
+// </a>
 
 export default Bio
