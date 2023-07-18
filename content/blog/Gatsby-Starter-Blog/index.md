@@ -12,6 +12,14 @@ description: "The learing curve of Gatsby Starter Blog"
 Node version too low, quick search found a method to update.
 ![Node version](./node_version.png)
 
+```js
+Website - https://edi.wang/post/2022/1/27/how-to-specify-nodejs-version-when-building-azure-static-web-app
+```
+
+
+![solution](./solution.png)
+
+
 
 Finally success!
 ![Success deployment](./success.jpeg)
