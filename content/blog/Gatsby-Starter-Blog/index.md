@@ -1,6 +1,6 @@
 ---
 title: Gatsby Starter Blog
-date: "2023-07-12T20:47:32.169Z"
+date: "2023-07-13T20:47:32.169Z"
 description: "The learing curve of Gatsby Starter Blog"
 ---
 
