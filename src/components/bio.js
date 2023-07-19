@@ -46,7 +46,7 @@ const Bio = () => {
         <p>
           Posts by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          Visit his site here -{` `}
+          Visit his online CV here -{` `}
           <a href={`https://iam.vcknows.com`}> iam.vcknows.com</a>
         </p>
       )}

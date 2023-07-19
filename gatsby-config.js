@@ -12,7 +12,7 @@ module.exports = {
     title: `Victor's Journey`,
     author: {
       name: `Victor Chiang`,
-      summary: `*change* who lives and works in San Francisco building useful things.`,
+      summary: `showcasting his journey of learning.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
