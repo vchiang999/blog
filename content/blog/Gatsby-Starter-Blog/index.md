@@ -1,256 +1,38 @@
 ---
-title: Gatsby Starter Blog
-date: "2023-07-13T20:47:32.169Z"
-description: "The learing curve of Gatsby Starter Blog"
+title: 📝 Gatsby Starter Blog
+date: "2023-07-14T20:47:32.169Z"
+description: "The learing curve of deploying Gatsby Starter Blog"
 ---
 
+#### Summary: In this journey, I learned that nothing comes easy. When faced with challenges, it is essential to remain determined and proactive. Instead of getting discouraged, I embraced the obstacles and sought out solutions to overcome them. This experience serves as a reminder that with perseverance and a resourceful approach, any obstacle can be surmounted.
 
+Now that I have successfully launched my Online CV, my next endeavor is to start a blog, wherein I will document the challenges encountered throughout this learning journey, along with the corresponding solutions I discovered during my research.
 
+Since Azure Static Web App solely provides hosting without any server side processing involved, it is essential for me to find a blog solution that is lightweight and easy to maintain. This is where Gatsby comes into the picture.
 
+Microsoft has a well documented module which guides you through the process.
+[Create and publish a static web app with Gatsby and Azure Static Web Apps](https://learn.microsoft.com/en-us/training/modules/create-deploy-static-webapp-gatsby-app-service/)
 
+```
+Packages required:
+- node
+- npm
+- gatsby-cli
+```
 
-Node version too low, quick search found a method to update.
+Installing these packages was not straightforward. However, I subsequently discovered a guide that utilizes [Homebrew](https://brew.sh/), which, in my opinion, offers a significantly easier method for installing and updating packages.
+
+Creating the Azure Static Web App was a straightforward process, with the crucial decision being the selection of Gatsby in the **Build Presents** options.
+![Present Gatsby](./Presents_Gatsby.png)
+
+Upon committing and pushing the codes to GitHub, which triggers the **Action** on Azure, I encountered the following error: "**Node version too low.**"
 ![Node version](./node_version.png)
 
-```js
-Website - https://edi.wang/post/2022/1/27/how-to-specify-nodejs-version-when-building-azure-static-web-app
-```
-
-
+A quick search yielded a [solution](https://edi.wang/post/2022/1/27/how-to-specify-nodejs-version-when-building-azure-static-web-app) to use the latest version of node.
 ![solution](./solution.png)
 
-
-
-Finally success!
+Finally, success! Welcome to my Blog!
 ![Success deployment](./success.jpeg)
 
-
-
-
-
-
-
-This is my first post on my new fake blog! How exciting!
-
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-
-You can also write code blocks here!
-
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
-
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
-
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
-
-This is a paragraph.
-
-    This is a paragraph.
-
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://via.placeholder.com/200x50 "Image Title")
-
-    ![Alt Text](https://via.placeholder.com/200x50 "Image Title")
+The last thing to do now is to add a custom domain.
+![Custom Domain](./Blog_Custom_Domain.png)

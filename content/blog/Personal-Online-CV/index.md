@@ -1,12 +1,13 @@
 ---
-title: 🎉🎉 Personal Online CV! 🎉🎉
-date: "2023-07-11T20:47:32.169Z"
+title: 🎉 Personal Online CV! 🎉
+date: "2023-07-13T20:47:32.169Z"
 description: "I'm so excited to share with you my new online CV!!"
 ---
 
-Summary: This marks the culmination of a transformative journey. During this exercise, I acquired valuable skills in utilizing GitHub and Visual Studio Code, and successfully setting up an Azure static web app. Moreover, I have become more familiar with terminal commands, utilising them to push codes to GitHub and review and update codes from Visual Studio Code for my CV template. This hands-on experience not only imparted practical knowledge but also deepened my understanding of the tools and technologies involved. As a result, I now feel confident and enthusiastic about applying these newfound skills to future projects.
+#### Summary: This marks the culmination of a transformative journey. During this exercise, I acquired valuable skills in utilizing GitHub and Visual Studio Code, and successfully setting up an Azure static web app. I have become more familiar with terminal commands, utilising them to push codes to GitHub and review and update codes from Visual Studio Code for my CV template. This hands-on experience not only imparted practical knowledge but also deepened my understanding of the tools and technologies involved. As a result, I now feel confident and enthusiastic about applying these newfound skills to future projects.
 
-🎉 This is my CV online! 🎉
+
+🎉 This is my CV online! 🎉 - [iam.vcknows.com](https://iam.vcknows.com)
 ![CV Online](./CV_Online.jpeg)
 
 Ok, it’s not that easy. Now that I have set up the necessary accounts, I am breaking it down into steps to show how I got it online.

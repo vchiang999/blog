@@ -1,6 +1,6 @@
 ---
 title: Github & Azure Static Web App
-date: "2023-07-10T20:47:32.169Z"
+date: "2023-07-12T20:47:32.169Z"
 description: "Deploying codes to Azure Static Web App through GitHub is incredibly easy! 😊"
 ---
 
@@ -17,4 +17,4 @@ The tools you will need are:
 3. Visual Studio Code software
 ```
 
-I hope you found this blog post helpful and informative. If you have any questions or feedback, feel free to leave a comment below. Happy coding!
+I hope you found this blog post helpful and informative.
